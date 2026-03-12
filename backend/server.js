@@ -1,13 +1,17 @@
 const express = require("express");
 const cors = require("cors")
 const db = require("../db/connection.js")
+const applicationRoutes = require("../routes/applications.js")
 const app = express();
 const port = 3000;
+
+
 app.use(express.json());
 app.use(cors())
+app.use('/', applicationRoutes)
 
 app.get("/", (req, res) => {
-  res.send("testeteste");
+  res.send("Hello World");
 });
 
 app.listen(3000, () => {
