@@ -5,21 +5,23 @@ DIA 1 – Resumo Técnico
 
 Stack:
 
--JavaScript
--Node.js
--Express
--React
--MySQL
+JavaScript
 
-Aprendizados:
+Node.js
 
--Definido o projeto job_tracker_api
--Escolhidas as tecnologias do projeto (React, Node.js, Express, MySQL)
--Criada a estrutura inicial de pastas do projeto
--Inicializado o servidor Node.js
--Executado o primeiro teste com "Hello World"
--Iniciada a conexão com o banco de dados MySQL
+Express
+
+React
+
+MySQL
+
+prendizados:
+Definido o projeto job_tracker_api
+Escolhidas as tecnologias do projeto (React, Node.js, Express, MySQL)
+Criada a estrutura inicial de pastas do projeto
+Inicializado o servidor Node.js
+Executado o primeiro teste com "Hello World"
+Iniciada a conexão com o banco de dados MySQL
 
 Problemas resolvidos:
-
 Nenhum problema técnico significativo neste dia
