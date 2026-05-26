@@ -2,12 +2,13 @@ const express = require("express");
 const cors = require("cors")
 const db = require("../db/connection.js")
 const applicationRoutes = require("../routes/applications.js")
+const authRoutes = require('../routes/auth.js')
 const app = express();
 const port = 3000;
 
-
 app.use(express.json());
 app.use(cors())
+app.use('/', authRoutes)
 app.use('/', applicationRoutes)
 
 app.get("/", (req, res) => {
