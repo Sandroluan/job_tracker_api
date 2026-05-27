@@ -4,6 +4,9 @@ Depois de muito tempo longe deste projeto por conta do trabalho e da faculdade, 
 Hoje foi um dia bem produtivo. Implementei a autenticação que estava planejando adicionar, criei o middleware e configurei o server.js e a rota applications.js para receber autenticação. Aos poucos estou começando a entender melhor como funciona o processo de autenticação e o uso de JWT.
 No geral, foi um dia de configuração, aprendizado e bastante leitura de documentação.
 
+continuei o dia 5, aproveitei que estava sem fazer nada, pois não tive aula na faculdade e nao tinha ido pro trabalho para fazer o front end, ou pelo menos o comeco em React, foi desafiador, mas nem tanto, pois ja tinha alguns conhecimentos basicos. Agora a API tem uma parte de front-end com login e cadastro. irei adicionar mais coisas futuramente (quando sobrar tempo denovo)
+
+
 DIA 5 RESUMO TÉCNICO
 
 Stack:
@@ -12,6 +15,7 @@ Stack:
 -Express
 -MySQL
 -Git
+-React
 
 Aprendizados:
 -Conceitos básicos de autenticação em APIs
@@ -19,6 +23,7 @@ Aprendizados:
 -Criação e utilização de middlewares no Express
 -Proteção de rotas com autenticação
 -Configuração de autenticação no server.js e na rota /applications
+-Adicionado interface de login e interface para ver as vagas candidatas em React (irei adicionar mais coisas mais pra frente)
 
 Problemas resolvidos:
 -Configuração inicial da autenticação na API
