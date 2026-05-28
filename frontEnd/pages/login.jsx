@@ -7,7 +7,7 @@ export default function Login(){
     const navigate = useNavigate()
 
     const handleLogin = async () => {
-        console.log(email, password)
+        //console.log(email, password)
         try{
             const response = await fetch('http://localhost:3000/auth/login', {
                 method: 'POST',
@@ -20,7 +20,7 @@ export default function Login(){
                 throw new Error('Login failed')
             }
             const data = await response.json()
-            console.log(data)
+            //console.log(data)
             localStorage.setItem('token', data.token)
             navigate('/applications')
         }catch(error){
